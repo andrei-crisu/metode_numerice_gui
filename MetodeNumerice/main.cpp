@@ -1,3 +1,5 @@
+//Autor: Crișu Radu Andrei
+
 #include "mainwindow.h"
 
 #include <QApplication>
