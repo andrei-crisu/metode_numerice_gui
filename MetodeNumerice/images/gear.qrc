@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>exit.png</file>
+        <file>exit_32.png</file>
+        <file>file.png</file>
+        <file>gear.png</file>
+        <file>gear.qrc</file>
+        <file>help.png</file>
+        <file>home.png</file>
+        <file>info_icon.png</file>
+        <file>math_icon.png</file>
+        <file>previous.png</file>
+        <file>run_64.png</file>
+        <file>settings.png</file>
+        <file>clear.png</file>
+        <file>next.png</file>
+        <file>left_arrow.png</file>
+        <file>right_arrow.png</file>
+    </qresource>
+    <qresource prefix="/help_img">
+        <file>help/img1.png</file>
+        <file>help/img2.png</file>
+        <file>help/img3.png</file>
+        <file>help/img4.png</file>
+        <file>help/img5.png</file>
+        <file>help/img6.png</file>
+        <file>help/img7.png</file>
+        <file>help/img8.png</file>
+        <file>help/img9.png</file>
+        <file>help/img10.png</file>
+        <file>help/img11.png</file>
+        <file>help/img12.png</file>
+        <file>help/img13.png</file>
+        <file>help/img14.png</file>
+        <file>help/img15.png</file>
+        <file>help/img16.png</file>
+        <file>help/img17.png</file>
+    </qresource>
+</RCC>
