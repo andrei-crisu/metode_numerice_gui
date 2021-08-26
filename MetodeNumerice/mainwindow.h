@@ -106,6 +106,8 @@ private slots:
 
     void on_back_button_5_clicked();
 
+    void on_horizontalSlider_valueChanged(int value);
+
 private:
     Ui::MainWindow *ui;
 };

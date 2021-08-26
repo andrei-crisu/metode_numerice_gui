@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QtDebug>
+#include<QGraphicsOpacityEffect>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -555,4 +556,11 @@ void MainWindow::on_back_button_5_clicked()
     currentIndex=currentIndex%18;
     ui->stackedWidget_3->setCurrentIndex(currentIndex);
 
+}
+
+void MainWindow::on_horizontalSlider_valueChanged(int value)
+{
+    double transparency;
+    transparency=ui->horizontalSlider->value()/100.0;
+    this->setWindowOpacity(transparency);
 }

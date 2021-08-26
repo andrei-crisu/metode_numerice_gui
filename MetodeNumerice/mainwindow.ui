@@ -16,6 +16,9 @@
     <height>530</height>
    </size>
   </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
   <property name="windowTitle">
    <string>Metode Numerice</string>
   </property>
@@ -53,7 +56,7 @@
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QGridLayout" name="gridLayout_3">
@@ -4337,6 +4340,115 @@ p, li { white-space: pre-wrap; }
              <height>427</height>
             </rect>
            </property>
+           <layout class="QVBoxLayout" name="verticalLayout_75">
+            <item>
+             <widget class="QGroupBox" name="groupBox_64">
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QGroupBox
+{
+
+}</string>
+              </property>
+              <property name="title">
+               <string>Opacitate aplicație</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_74">
+               <property name="leftMargin">
+                <number>20</number>
+               </property>
+               <property name="topMargin">
+                <number>30</number>
+               </property>
+               <item>
+                <widget class="QSlider" name="horizontalSlider">
+                 <property name="minimumSize">
+                  <size>
+                   <width>280</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>280</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+border: 1px solid #777;
+background-color: rgb(219, 199, 166);
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+background-color: rgb(61, 73, 87);
+border: 1px solid #777;
+width: 32px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover 
+{
+border: 1px solid #444;
+border-radius: 4px;
+background-color: rgb(236, 236, 236);
+}
+
+</string>
+                 </property>
+                 <property name="minimum">
+                  <number>60</number>
+                 </property>
+                 <property name="maximum">
+                  <number>100</number>
+                 </property>
+                 <property name="sliderPosition">
+                  <number>100</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>327</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
           </widget>
          </widget>
         </item>
