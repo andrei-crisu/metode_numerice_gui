@@ -1,0 +1,16 @@
+release/CompiledExpression.o
+release/ExpressionProgram.o
+release/ExpressionTreeNode.o
+release/Operation.o
+release/ParsedExpression.o
+release/Parser.o
+release/basic_text_interpreter.o
+release/error.o
+release/from_internal_to_user.o
+release/main.o
+release/mainwindow.o
+release/numerical_methods.o
+release/particular_interpreter.o
+release/utilities.o
+release/qrc_gear.o
+release/moc_mainwindow.o

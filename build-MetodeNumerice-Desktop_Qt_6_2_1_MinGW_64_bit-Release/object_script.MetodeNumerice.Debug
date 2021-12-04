@@ -1,0 +1,16 @@
+debug/CompiledExpression.o
+debug/ExpressionProgram.o
+debug/ExpressionTreeNode.o
+debug/Operation.o
+debug/ParsedExpression.o
+debug/Parser.o
+debug/basic_text_interpreter.o
+debug/error.o
+debug/from_internal_to_user.o
+debug/main.o
+debug/mainwindow.o
+debug/numerical_methods.o
+debug/particular_interpreter.o
+debug/utilities.o
+debug/qrc_gear.o
+debug/moc_mainwindow.o
